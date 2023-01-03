@@ -7,7 +7,4 @@
      name: apache2 
      state: present 
 
-  - name: i want to install tree 
-    apt: 
-     name: tree 
-     state: present 
+   
