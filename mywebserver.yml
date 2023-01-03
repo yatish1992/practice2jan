@@ -1,5 +1,5 @@
 --- 
-- hosts: mywebservers 
+- hosts: all  
   become: yes 
   tasks: 
   - name: install webserver on ubuntu nodes
