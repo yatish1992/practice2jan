@@ -14,7 +14,3 @@
 172.31.92.288 
 
 
-[mywebservers:vars]
-vars=value 
-mywebpackonubuntu=apache2
-mywebpackonRedHat=httpd
