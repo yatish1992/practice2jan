@@ -4,5 +4,10 @@
   tasks: 
   - name: i want to install webserver 
     apt: 
-    - name: apache2 
-      state: present 
+     name: apache2 
+     state: present 
+
+  - name: i want to install tree 
+    apt: 
+     name: tree 
+     state: present 
