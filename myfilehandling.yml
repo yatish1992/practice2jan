@@ -1,5 +1,5 @@
 --- 
-- host: 172.31.84.114
+- hosts: 172.31.84.114
   become: yes 
   tasks: 
   - name: create a file 
