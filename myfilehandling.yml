@@ -1,0 +1,8 @@
+--- 
+- host: 
+  become: yes 
+  tasks: 
+  - name: create a file 
+    file: 
+      path: /home/ubuntu/
+      state: present 
