@@ -7,7 +7,7 @@
 - name: copy context file into node side 
   template: 
     src: templates/mycontext.j2
-    dest:   sudo nano /opt/tomcat/webapps/manager/META-INF/context.xml 
+    dest: sudo nano /opt/tomcat/webapps/manager/META-INF/context.xml 
 
 
 - name: copy host context  file into node side 
